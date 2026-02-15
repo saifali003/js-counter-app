@@ -10,7 +10,7 @@ increaseBtn.addEventListener("click",function(){
 });
 
 decreaseBtn.addEventListener("click",function(){
-    if(count<0){
+    if(count>0){
         count--;
     }
     countDisplay.textContent = count;
