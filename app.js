@@ -11,11 +11,9 @@ increaseBtn.addEventListener("click",function(){
 
 decreaseBtn.addEventListener("click",function(){
     if(count<0){
-        count = 0;
-    }else{
-     count--;
-     countDisplay.textContent = count;
+        count--;
     }
+    countDisplay.textContent = count;
 });
 
 resetBtn.addEventListener("click",function(){
